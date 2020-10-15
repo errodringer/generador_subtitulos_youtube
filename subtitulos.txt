@@ -1,0 +1,590 @@
+00:01
+[Música]
+00:05
+bien podemos empezar con la regresión
+00:08
+lineal un modelo de regresión lineal
+00:10
+simple como puede ser por ejemplo lo que
+00:12
+hemos hecho de toda vida en el excel
+00:14
+calculada la recta de regresión o es lo
+00:16
+que hace aquí para llevamos el portal de
+00:19
+la librería site isl en un modelo lineal
+00:23
+que se va a llamar línea de grecia la
+00:27
+regresión lineal
+00:28
+ahora vamos a llevar por ejemplo model
+00:32
+en la ceiba a línea regresa
+00:39
+ya tenemos aquí un modelo de regresión
+00:42
+lineal con estos atributos que vienen
+00:45
+aquí en la pantalla como dije en la
+00:47
+página de sin lectura y más información
+00:49
+y ahora lo que vamos hacer
+00:51
+entreno en este modelo para ello tenemos
+00:53
+que utilizar el atributo fit y dentro
+00:57
+ponéis el x del 30 de entrenamiento y la
+01:01
+iss
+01:01
+del 30 mil es decir a partir de nuestros
+01:05
+datos es que nosotros tenemos va a sacar
+01:07
+unos patrones que se relacionen con y de
+01:11
+cierta forma de cierta algoritmo
+01:13
+matemático que tenga configurado esta
+01:16
+regresión lineal
+01:18
+entrenando como tenemos pocos datos
+01:21
+tarda poquito ahora por ejemplo vamos a
+01:25
+sacar las predicciones para sacar las
+01:27
+pensiones va a crear las variables donde
+01:29
+se va a igualdad las pensiones que le
+01:30
+vamos a decir model punto de vista y
+01:34
+ahora esto que pasa el x de él
+01:39
+lo ejecutamos le he puesto aquí la sede
+01:43
+está ejecutamos y ahora en triples
+01:47
+tengo guardado nuestras peticiones como
+01:50
+vemos en los aguardaron un array todas
+01:51
+las predicciones voy a crear un data
+01:54
+frame dvd más como de comparación va a
+01:59
+ser un dato el de pandas
+02:02
+donde se va a llamar por ejemplo real la
+02:08
+ley del test o sea las que son reales y
+02:13
+la pre de predicción van a ser las leyes
+02:16
+que nosotros nos acabas tiene una edad
+02:19
+o sea esto lo podemos ver con conjuntos
+02:23
+en los cinco primeros por ejemplo y
+02:26
+vemos aquí qué valores toma el valor
+02:29
+real que en este caso por ejemplo 7 17 y
+02:33
+la predicción que nos saca nuestro
+02:34
+modelo e 119 aquí 118 109 120 con 125
+02:39
+como vemos hay una cierta diferencia
+02:42
+como se evalúa
+02:45
+esta diferencia o cómo se evalúa como de
+02:48
+bueno o malo a nuestro modelo pues con
+02:50
+una métrica nosotros en este caso
+02:52
+concretamente vamos a utilizar la
+02:54
+métrica del error cuadrática medio es
+02:56
+decir
+02:58
+el cuadro de la distancia que separa a
+03:01
+estos dos valores para ellos
+03:04
+él también tiene una métrica vamos a
+03:06
+importarlo aquí vamos a poner por
+03:08
+ejemplo propio heisley punto metrix y
+03:12
+por mi square error
+03:16
+el ros cuadrática medio y ahora vamos a
+03:19
+decir que el cms es igual
+03:24
+desde tenemos que pasar la libertad de
+03:26
+ella en nuestro caso a elites y nuestras
+03:29
+mediciones
+03:31
+en nuestro caso les podemos decir
+03:39
+y como vemos nuestro caso tenemos un
+03:41
+error caótico en medio de 24 78 lo
+03:45
+podemos representar
+03:47
+por ejemplo los diferentes valores que
+03:50
+nosotros hemos hecho en predicciones con
+03:52
+los reales para ello vamos a decirle que
+03:55
+el eje x va a ser igual a una lista de
+03:59
+rango de x test
+04:04
+punto 6
+04:06
+pero
+04:22
+venga lo tenemos aquí y vamos a ver qué
+04:25
+valor nos da
+04:27
+como vemos hemos representado con un
+04:30
+punto grande lastra palabras de
+04:33
+predicción el eje y dos y con raya
+04:38
+el valor real como vemos ahí no se ve
+04:42
+bastante bien porque hay tanto punto que
+04:45
+hay aquí en mucho ruido de alguna
+04:48
+función por ejemplo aquí
+04:51
+a los 20 que va a recibir como argumento
+04:56
+un y verdadero
+04:58
+y un líder predictivo
+05:01
+para representar los 20 primeros casos
+05:04
+para ver qué tal se representan sólo 20
+05:08
+de copias esto
+05:09
+[Música]
+05:13
+aquí ya poner tengo 20 queda totalmente
+05:17
+y aquí que me dé hasta el 20
+05:21
+ahora sí que nos representa los 20
+05:24
+primeros como vemos hay puntos que se
+05:27
+acerca más a su valor real y otros como
+05:30
+este por ejemplo que se nos acercan
+05:33
+menos ahora vamos a ver algunos modelos
+05:35
+de regresión con regularización como por
+05:37
+ejemplo puede ser
+05:40
+la regresión de ríos
+05:43
+para ello vamos a importar consider
+05:46
+línea el modelo y pops
+05:55
+de nuevo en la página web os dice cómo
+05:59
+funciona el riff y cómo funciona
+06:02
+el valor de parámetro de la
+06:04
+regularización simplemente como se ha
+06:09
+dicho
+06:12
+dreams y la verdad es que para vitro
+06:15
+alfa de regularización le voy a poner un
+06:17
+1 por ejemplo por comer
+06:20
+y aquí y voy a decir
+06:23
+que me entrene con el x3
+06:27
+y el tren
+06:31
+ahora voy a decir y press
+06:35
+va a ser al reich punto predict
+06:39
+x test
+06:42
+y le voy a decir por ejemplo que mi
+06:45
+prima
+06:47
+error cuadrado promedio de test de paro
+06:51
+real y el inprés el valor de la
+06:53
+predicción
+06:55
+vamos a darle
+06:57
+como vemos en un poco peor que la que
+07:01
+vimos anteriormente de la revisión línea
+07:04
+normal eso es porque le emite un
+07:06
+parámetro alfa aleatorio por ejemplo si
+07:09
+yo le meto uno cualquiera 0.1 por
+07:13
+ejemplo ese valor cambia es decir el
+07:16
+segundo al segundo alfa voy a tener un
+07:21
+valor u otro es decir si busco un alfa
+07:24
+concreto tendré un mejor valor óptimo
+07:27
+para ello por ejemplo a crear una lista
+07:29
+de altas
+07:32
+se crea con
+07:34
+la función a lynch de nancy que vaya de
+07:39
+0 001 hasta 01 por ejemplo el paso de 0
+07:44
+00 que es decir que voy a meter aquí
+07:48
+bastante unos 100 alzas
+07:51
+como queremos
+07:53
+lo que estamos realmente 99 altas porque
+07:57
+va de aquí aquí en pasos de 0 001 pero
+08:01
+sí no
+08:08
+ahora aquí voy a crear una lista de
+08:10
+errores cuadrática en medio y ahora
+08:13
+decir por alfa en alfa en alfaz voy a
+08:18
+hacer todo esto de aquí
+08:21
+ya crear un alfa alfa
+08:26
+alfa perdón
+08:29
+y ahora va a decir que me entrene este
+08:33
+modelo y que ver estas predicciones y
+08:36
+voy a decir que robar base a round para
+08:40
+redondear un poco el error cuadrática
+08:42
+medio de y text
+08:45
+y press
+08:48
+pero redondeó contra décima economía
+08:51
+[Música]
+08:52
+y añadía ms
+08:56
+ese error para ir teniendo en cuenta
+08:58
+cuál es el cuadro que estamos teniendo
+09:01
+según el alto
+09:03
+ahora por último después de que se
+09:06
+recorre este busto este bucle al 99 s y
+09:10
+se no calculé todos estos escolásticos
+09:12
+medios va a crear alfa por ejemplo un
+09:16
+data frame banda data frame que va a ser
+09:21
+el ms por ejemplo que va a ser toda esta
+09:25
+lista de meses y alfa
+09:30
+que va a ser toda la lista de nuestras
+09:32
+almas
+09:34
+si aceptamos esto y vemos nuestro alfa
+09:38
+error por ejemplo los primeros casos
+09:40
+vemos que demostrando esta flame en el
+09:43
+que tenemos un error cuadrática medio
+09:45
+que va variando en función del alfa como
+09:48
+podemos sacar el valor óptimo de esto
+09:51
+pues por ejemplo diciendo
+09:54
+de alfa erró
+09:58
+de alfaro donde el ms el error para tico
+10:03
+medio
+10:05
+es igual a alfa error
+10:09
+de m s
+10:15
+el punto mínimo
+10:17
+vamos esto vemos que nos da el data
+10:21
+frame el sub data frame de alfa error
+10:24
+donde el ms ms el mínimo es decir el
+10:29
+menor error los nuestros decisiones que
+10:32
+mejor se ajustan a los datos reales para
+10:36
+ellos nos dice que es con un alza de 0
+10:39
+28 es decir si yo vuelvo a entrenar otra
+10:43
+vez todo el modelo
+10:45
+con
+10:47
+un rich con ese valor pues tengo este
+10:51
+error cuadrática medio sería el valor
+10:53
+óptimo
+10:55
+para él el oasis 0028 pero como vemos
+11:00
+tengo un 24 65 0 que un valor
+11:06
+menos de lo que no vio la regresión
+11:09
+lineal siempre decía hemos mejorado
+11:11
+algunas décimas
+11:14
+vamos a ver un nuevo modelo lineal con
+11:19
+regularización en este caso va a ser
+11:21
+lazo otra vez vamos a utilizarlo de la
+11:26
+librería asequible como un vuelvo a
+11:29
+decir que puede meter la página web para
+11:31
+entender un poquito mejor cómo funciona
+11:33
+esta de este algoritmo y así que vamos a
+11:37
+importarlo frostik inglés punto línea
+11:39
+del modelo línea a mover y por el azul
+11:44
+[Música]
+11:46
+al área
+11:48
+algo parece algo que he hecho antes
+11:51
+data frame de
+11:54
+de diferente salsa porque el azotamiento
+11:57
+en un parámetro alfa de regularización
+11:59
+podéis consultar la página web cómo
+12:01
+funciona
+12:03
+y vamos a tomar lo mismo valor de alfa
+12:06
+para no comiendo mucho el coco solamente
+12:08
+aquí yo vamos a llamar laso
+12:12
+y esto va a ser alfa
+12:15
+y todo esto le pone boya para el lazo
+12:18
+las olas olas
+12:21
+bien ahora ejecutó ve si no me equivoco
+12:24
+nada correcto
+12:26
+podemos ver nuestro alfa error
+12:30
+más altas es alfa
+12:34
+y vemos que está aquí todos nuestros
+12:36
+valores de error cuadrática medio frente
+12:40
+a su alfa
+12:42
+ahora vamos a hacerlo parecido a lo que
+12:44
+hemos hecho antes para ver cuál es
+12:48
+y que corresponda un valor mínimo para
+12:50
+los diferentes alzas
+12:52
+[Música]
+12:54
+y como vemos en este caso tenemos un 24
+12:57
+60 y 45 con alta igual a 0 0 3 y si yo
+13:01
+pongo todo esto
+13:03
+lo pongo aquí lo ve intento y pongo que
+13:07
+alfa el 0 003
+13:12
+y aquí el primo por pantalla de error
+13:17
+efectivamente hemos conseguido un valor
+13:20
+de alfa que se optimiza
+13:25
+este error práctico medio es decir nos
+13:27
+hace unas predicciones mejores unas
+13:29
+personas que se acercan más a lo que es
+13:31
+la los datos reales
+13:34
+así que nada yo creo que lo voy a dejar
+13:37
+aquí para no hacer vídeos demasiado
+13:39
+largo como vemos ya podemos hacer en
+13:42
+nuestros primeros modelitos de machine
+13:44
+learning de regresión simple y de
+13:47
+regresión con con regularización con el
+13:50
+blog parámetro alfa tanto de los
+13:53
+algoritmos de ríos y del lazo y yo creo
+13:56
+que para un primer vídeo the machine
+13:58
+learning está bien no me quiero meter
+13:59
+mucho con la teoría porque creo que es
+14:04
+bastante amplio y bastante importante se
+14:06
+necesita una base fuerte también de
+14:08
+estadística pero bueno para ver un
+14:10
+poquito de machil en ya nivel básico
+14:12
+para aprender también veamos por lo
+14:14
+menos cómo funciona que resumidas
+14:17
+cuentas tengo un conjunto de datos unas
+14:20
+x con unas unos valores que quiero
+14:24
+de una variable quiero conocer cómo ha
+14:27
+sido tengo una gente que se conoce y
+14:29
+ahora le voy a pasar unas predicciones a
+14:32
+otro conjunto que es totalmente aislado
+14:34
+para ver si mis predicciones se parecen
+14:38
+a esas y que ya conocía también y para
+14:41
+ello existen una cosa se llama la
+14:43
+métrica que nos evalúa cómo de bueno o
+14:46
+de malo en nuestro modelo en este caso
+14:49
+debemos utilizar el recuadro tico medio
+14:51
+el ms y hemos visto también cómo se
+14:56
+puede jugar un poquito con diferentes
+14:57
+modelos para mejorar en este caso hemos
+14:59
+visto que el lazo en el que mejora un
+15:02
+poquito más por andar por 0 005 el mejor
+15:06
+que erviti si no me equivoco trate de
+15:09
+24,65 0 y en la web 24 64 5 pero bueno
+15:15
+si estamos una competición hemos ganado
+15:17
+por 0 005 el lazo
+15:21
+y nada lo voy a dejar aquí de aire
+15:24
+subiendo más vídeos de machine learning
+15:26
+por ejemplo en el próximo vídeo vamos a
+15:28
+ver

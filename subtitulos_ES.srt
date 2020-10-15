@@ -1,0 +1,20 @@
+1
+00:00:01,000 --> 00:00:05,000
+[Música]
+
+2
+00:00:05,000 --> 00:00:08,000
+bien podemos empezar con la regresión
+
+3
+00:00:08,000 --> 00:00:10,000
+lineal un modelo de regresión lineal
+
+4
+00:00:10,000 --> 00:00:12,000
+simple como puede ser por ejemplo lo que
+
+5
+00:00:12,000 --> 00:00:14,000
+hemos hecho de toda vida en el excel
+
